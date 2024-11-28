@@ -34,6 +34,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  border-radius: 5px;
   .z-select-input {
     background-color: transparent;
     width: 100%;

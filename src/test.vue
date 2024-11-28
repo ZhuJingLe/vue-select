@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <zSelect />
+  <div class="test">
+    <zSelect style="width: 340px;" />
   </div>
 </template>
 
@@ -11,6 +11,13 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="scss">
+.test {
+  display: flex;
+  justify-content: center;
+  padding: 20%;
+}
+body {
+  background: #504e4e;
+}
 </style>
